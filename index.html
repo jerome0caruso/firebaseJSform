@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+        <title>Title</title>
+    </head>
+    <body>
+
+        <h1>Hello</h1>
+        <div class="container">
+            <form class="mb-5" id="form">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="firstName" placeholder="First Name">
+                    <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+                </div>
+                <input type="submit" class="btn btn-success">
+            </form>
+            <h4>List of Students</h4>
+            <ul id="list"></ul>
+        </div>
+        
+
+        <!-- Firebase App (the core Firebase SDK) - must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+        <!-- SDK of the Firebase product (Realtime Database) that we would like to use -->
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+        <!-- Our own javascript file -->
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
